@@ -1,0 +1,132 @@
+/* BODY */
+.bg-image{
+    height:517px;
+    background-image: url("ecosystem\ green\ 1.png");
+    background-size: cover;
+}
+.container{
+    height:505px;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+    width:350px;
+    border-radius: 34px;
+    background-color: #FAF8EDCF;
+    font-size: 18px;
+    transition-duration: 250ms;
+
+}
+.sec-a{
+    color: brown;
+    text-shadow:0 5px 10px #ffe6a7;
+}
+.section1:hover{
+    height: 110px;
+    width:350px;
+    background-color: #FAF8EDCF;
+    font-size: 20px;
+    border-radius: 47px;
+}
+
+
+.section2{
+    background-color: #FAF8ED;
+    padding:3px;
+    border-radius: 10px;
+    color: black;
+    font-family:Verdana;
+    width:900px;
+    opacity: 0.8;
+    font-size: 18px;
+
+}
+.hid-img{
+    filter: blur(2px);
+    height: 50px;
+    border-radius: 50%;
+    top:250px;
+    right:80px;
+    transition: ease-out 100ms;
+    position: absolute;
+}
+.hid-img:hover{
+    transform: scale(2);
+    filter: blur(0);
+}
+
+/* Default for all pages */
+
+.container{
+    animation:PageChange 1s;
+}
+@keyframes PageChange {
+    from{
+        opacity:0;
+        transform:rotateX(-70deg) rotateY(0);
+    } 
+    to{
+        opacity: 1;
+        transform: rotateX(0) rotateY(0);
+    }
+}
+
+a{
+    text-decoration: none;
+}
+
+*{
+    margin:0;
+
+}
+
+/* Header */
+header{
+    display:flex;  
+    height: 100px;
+    background-color: #FAF8ED;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color:black;
+    text-shadow:0 0 15px green;
+}
+
+/* Nav bar */
+.nav-bar{
+    padding:0;
+    background-color: #748E63;
+    display: flex;
+    align-items:center;
+    height: 50px;
+
+}
+
+.nav-a{
+    color: whitesmoke;
+    padding:0 10px 0 10px;
+    transition: ease-in-out 100ms;
+
+}
+.nav-a:hover{
+    color: aquamarine;
+    opacity:0.5;
+    transform:scale(1.1);
+}
+.on{
+    color:darkgreen;
+}
+/* BODY */
+body{
+    background-color: #748E63;
+} 
+/* To hide scroll bar in body section */
+body::-webkit-scrollbar{
+    display: none;
+}

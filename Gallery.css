@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+}
+
+
+.cont-box{
+    padding: 20px 0 20px 0;
+    background-color: #FAF8ED;
+    display: flex;
+    align-items: center;
+    height:480px;
+    width: 100%;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+
+/* .container::-webkit-scrollbar{
+    display: none;
+} */
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-width: 100%;
+    scroll-snap-align: start;
+}
+
+.gimg{
+    height: 500px;
+    width: 60%;
+}
+
+
+/* Default for all pages */
+
+.container{
+    animation:PageChange 1s;
+}
+@keyframes PageChange {
+    from{
+        opacity:0;
+        transform:rotateX(-70deg) rotateY(0);
+    } 
+    to{
+        opacity: 1;
+        transform: rotateX(0) rotateY(0);
+    }
+}
+
+a{
+    text-decoration: none;
+}
+
+*{
+    margin:0;
+
+}
+
+/* Header */
+header{
+    display:flex;  
+    height: 100px;
+    background-color: #FAF8ED;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color:black;
+    text-shadow:0 0 15px green;
+}
+
+/* Nav bar */
+.nav-bar{
+    padding:0;
+    background-color: #748E63;
+    display: flex;
+    align-items:center;
+    height: 50px;
+
+}
+
+.nav-a{
+    color: whitesmoke;
+    padding:0 10px 0 10px;
+    transition: ease-in-out 100ms;
+
+}
+.nav-a:hover{
+    color: aquamarine;
+    opacity:0.5;
+    transform:scale(1.1);
+}
+.on{
+    color:darkgreen;
+}
+/* BODY */
+body{
+    background-color: #748E63;
+} 
+/* To hide scroll bar in body section */
+body::-webkit-scrollbar{
+    display: none;
+}

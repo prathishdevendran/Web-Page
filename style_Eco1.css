@@ -1,0 +1,116 @@
+/* BODY */
+.bg-image{
+    height:520px;
+    background-image: url("ecosystem.jpg");
+    background-size: cover;
+}
+.container{
+    padding:20px 0 20px 0;
+    gap:20px;
+    overflow-y: scroll;
+    scroll-snap-type: y;
+    height:480px;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:87px;
+    width:500px;
+    border: 1px solid white;
+    border-radius: 34px;
+    background-color: #68571333;
+    font-size: 18px;
+    transition-duration: 240ms;
+    transition: ease-in-out 350ms;
+    scroll-snap-align: center;
+
+
+}
+.sec-a{
+    color: white;
+    text-shadow:0 2px 3px black;
+    /* #ffe6a7 */
+}
+.section1:hover{
+    background-color: #7AAE77Ff;
+    /* #FAF8EDa1 */
+    opacity: 0.9;
+    font-size: 20px;
+    border-radius: 41px;
+}
+
+
+/* Default for all pages */
+
+.container{
+    animation:PageChange 1s;
+}
+@keyframes PageChange {
+    from{
+        opacity:0;
+        transform:rotateX(-70deg) rotateY(0);
+    } 
+    to{
+        opacity: 1;
+        transform: rotateX(0) rotateY(0);
+    }
+}
+
+a{
+    text-decoration: none;
+}
+
+*{
+    margin:0;
+
+}
+
+/* Header */
+header{
+    display:flex;  
+    height: 100px;
+    background-color: #FAF8ED;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color:black;
+    text-shadow:0 0 15px green;
+}
+
+/* Nav bar */
+.nav-bar{
+    padding:0;
+    background-color: #748E63;
+    display: flex;
+    align-items:center;
+    height: 50px;
+
+}
+
+.nav-a{
+    color: whitesmoke;
+    padding:0 10px 0 10px;
+    transition: ease-in-out 100ms;
+
+}
+.nav-a:hover{
+    color: aquamarine;
+    opacity:0.5;
+    transform:scale(1.1);
+}
+.on{
+    color:darkgreen;
+}
+/* BODY */
+body{
+    background-color: #748E63;
+} 
+/* To hide scroll bar in body section */
+body::-webkit-scrollbar{
+    display: none;
+}
