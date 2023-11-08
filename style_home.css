@@ -1,11 +1,14 @@
 /* BODY */
+html{
+    overflow:hidden;
+}
 .bg-image{
     height:517px;
     background-image: url("ecosystem\ green\ 1.png");
     background-size: cover;
 }
 .container{
-    height:505px;
+    height:100%;
     display:grid;
     align-items: center;
     justify-content: center;
