@@ -1,3 +1,6 @@
+html{
+    overflow:hidden;
+}
 /* BODY */
 .bg-image{
     height:520px;
@@ -5,11 +8,11 @@
     background-size: cover;
 }
 .container{
-    padding:20px 0 20px 0;
-    gap:20px;
+    padding:10px 0 20px 0;
+    gap:10px;
     overflow-y: scroll;
     scroll-snap-type: y;
-    height:480px;
+    height:100%;
     display:grid;
     align-items: center;
     justify-content: center;
@@ -18,7 +21,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height:87px;
+    height:85px;
     width:500px;
     border: 1px solid white;
     border-radius: 34px;
