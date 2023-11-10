@@ -62,7 +62,7 @@ header{
 }
 h1{
     color:black;
-    text-shadow:0 0 15px green;
+    text-shadow:0 3px 5px green;
 }
 
 /* Nav bar */
