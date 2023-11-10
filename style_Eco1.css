@@ -49,7 +49,7 @@ html{
 
 /* Default for all pages */
 
-.container{
+.effect{
     animation:PageChange 1s;
 }
 @keyframes PageChange {
