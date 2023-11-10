@@ -29,7 +29,7 @@
 
 
 /* Default */
-.container{
+.effect{
     animation:PageChange 0.3s;
 }
 @keyframes PageChange {
