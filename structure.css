@@ -1,11 +1,11 @@
 
 .bg-image{
-    height:517px;
+    height:100%;
     background-color: #4A5A23;
 }
 
 .container{
-    height: 500px;
+    height: 726px;
     display: grid;
     justify-content: center;
     padding: 20px 0 0 25px ;
