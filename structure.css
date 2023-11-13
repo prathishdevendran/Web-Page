@@ -97,3 +97,7 @@ body{
 body::-webkit-scrollbar{
     display: none;
 }
+.container::-webkit-scrollbar{
+    display: none;
+}
+
