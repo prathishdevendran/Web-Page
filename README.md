@@ -1,2 +1,3 @@
 # Web-Page
-This Repository is for webpages
+Repository for website
+Thank you
